@@ -1,4 +1,5 @@
 package qw.springframework.joke.jokeapp.services;
 
-public class JokeService {
+public interface JokeService {
+    String getJoke();
 }
